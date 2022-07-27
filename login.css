@@ -137,9 +137,10 @@ footer{
     background-color: rgb(54, 54, 54);
     padding: 8px;
     position: relative;
-    bottom: -200px;
     display: flex;
     margin-top: 20px;
+
+    
 }
 
 .contenedor-foot .cont{
@@ -228,11 +229,14 @@ footer{
     form #button{
         left: 300px;
     }
+    footer{
+        bottom: -60px;
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width:1440px){
     footer{
-        bottom: -300px;
+        bottom: -100px;
     }
     form #button{
         left: 600px;
@@ -245,7 +249,7 @@ footer{
         left: 650px;
     }
     footer{
-        bottom: -800px;
+        bottom: -600px;
     }
 }
 
