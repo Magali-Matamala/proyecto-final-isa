@@ -1,0 +1,446 @@
+body{
+    margin: 0%;
+    background-image: url("imagenes/fondo.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgb(54, 54, 54);
+    padding: 0;
+    border: 2px solid #161616 ;
+    position: sticky;
+    top: 0;    
+    z-index: 100;
+    height: 110px;
+} 
+
+
+.titulo{
+    color: white;
+    margin-left: 13%;
+    margin-right: 80%;
+    margin-top: -80px;    
+}
+
+.subtitulo{
+    color: antiquewhite;
+    margin-left: 13%;
+    margin-right: 40%;
+    margin-top: -10px;
+    font-size: medium;
+    font-style: oblique;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 8px;
+    margin-top: 8px;   
+}
+
+.navegador{
+    overflow: hidden;
+    position: absolute;
+    right: 20px;
+    top: 10px;  
+}
+
+.navegador .contenedor{
+    display: flex;   
+}
+
+.navegador .contenedor .boton{
+    list-style: none;   
+}
+
+.navegador .contenedor .boton a{
+    
+    font-weight: bolder;
+    font-size: 100%;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(54, 54, 54);
+    color: antiquewhite;   
+}
+
+.navegador .contenedor .redes a img{
+    width: 25px;
+    height: 25px;
+    margin: 0 16px;
+    position: relative;
+    top: -4px;   
+}
+
+.navegador .contenedor .redes{
+    list-style: none;
+}
+
+.navegador .contenedor .boton a:hover{
+    border: 1px solid rgb(193, 180, 180);
+    opacity: 0.6;      
+}
+
+.titulo2{
+    color: rgb(54, 54, 54);
+    padding: 1em;
+    position: relative;
+    bottom: -100px;
+    text-align: center;
+    margin-right: 330px;     
+}
+
+.subtitulo2{
+    color: rgb(54, 54, 54);
+    padding: 1em;
+    position: relative;
+    bottom: -70px;
+    text-align: center;
+    margin-right: 330px;  
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 5px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    width: 500px;
+    position: relative;
+    right: 160px;
+}
+
+.linea2{
+    border-top: 1px solid black;
+    height: 5px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    width: 300px;
+    position: relative;
+    bottom: -70px;
+}  
+
+.linea3{
+    border-top: 1px solid black;
+    height: 5px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    width: 300px;
+    position: relative;
+    bottom: -150px;   
+}
+
+.descripcion{
+    color: antiquewhite;
+    background-color: rgb(54, 54, 54);
+    font-size: large;
+    border: 2px solid #343434;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    bottom: -60px;
+    padding: 10px;
+}
+
+.equipo{
+    color: rgb(54, 54, 54);
+    padding: 1em;
+    position: relative;
+    bottom: -50px;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    bottom: -80px;
+}
+
+.container .card{
+    width: 300px;
+    height: 440px;
+    background-color: rgb(213, 212, 210);
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.286);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.364);
+}
+
+.container .card .tarjeta{
+    width: 300px;
+    height: 220px;
+}
+
+.container .card #title-card{
+    font-weight: 600;
+    font-style: oblique;   
+}
+
+.container .card #desc-card{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: oblique;
+}
+
+.titulovideos{
+    padding: 2em;
+    color: rgb(54, 54, 54);
+    text-align: center;
+    position: relative;
+    bottom: -130px;
+}
+
+.videos{
+    position: relative;
+    bottom: -100px;
+    margin:0 auto;
+}
+
+.video{
+    width: 330px;
+    height: 300px; 
+}
+    
+form{
+    position: relative;
+    top: 78px;
+}
+
+.formulario{
+    color: rgb(129, 72, 126);
+    text-align: center;
+    background-color: rgb(213, 212, 210);
+    width: 250px;
+    height: 295px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: solid rgb(54, 54, 54);
+}
+
+textarea{
+    resize: none;
+}
+
+#miBoton{
+    color: white;
+    background-color: rgb(54, 54, 54);
+    font-size: large;
+    position: relative;
+    bottom: -50px;
+    height: 30px;
+    width: 120px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+    grid-template-rows: 340px;
+}
+
+footer{
+    color: antiquewhite;
+    border: 2px solid #343434 ;
+    background-color: rgb(54, 54, 54);
+    padding: 8px;
+    position: relative;
+    bottom: -150px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.contenedor-foot .cont{
+    display: flex;
+    margin-left: -40px;
+}
+
+.contenedor-foot .cont .foot{
+    list-style: none;
+}
+
+.contenedor-foot .cont .foot a{
+    padding: 5px;
+}
+
+.img-footer{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(39, 39, 39);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.descargar{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: -5px;
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:475px){
+    .titulo{
+        margin-top: 10px;
+     }
+     .subtitulo{
+        color: #111111;
+         margin-top: 0px;;
+ 
+     }
+     .navegador .contenedor .boton a{
+         position: relative;
+         left: 150px;
+         font-weight: bolder;
+         font-size: 80%;
+         margin: 0 5px;
+         bottom: -30px;
+     }
+     .navegador .contenedor .redes a img{
+         width: 15px;
+         height: 15px;
+         top: -15px;  
+         left: 10px;  
+     }
+     .logo{
+         width: 50px;
+         height: 50px;
+         margin-left: 0px; 
+     }
+     
+     .linea{
+         width: 150px;
+     }
+     
+     .grid{
+        grid-template-rows: 850px;
+     }
+ 
+     .grid1{
+         display: grid;
+         grid-template-columns: 1fr;
+         gap: 5px;
+         grid-template-rows: 100px;
+         padding: 5PX;   
+     }
+     
+     aside.conteiner-form{
+         width: 100px;
+     }
+     
+     form{
+         position: relative;
+         right: 70px;
+         margin-top: 100px;
+         margin-left: 100px;
+         
+     }
+ 
+     .formulario{
+        height: 230px;
+     }
+ 
+     #miBoton{
+         bottom: -15px;
+     }
+     .rosita{
+         display: none;
+     }
+ 
+     footer{
+         padding: 1px;
+         display: block;
+         bottom: -200px;
+     }
+     .linea{
+        top: -100px;
+     }
+     .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 850px;
+     }
+     
+    .linea3{
+        bottom: -1150px;
+    }
+    .titulovideos{
+        bottom: -1100px;
+    }
+    .video{
+        width: 200px;
+        height: 200px;
+    }
+    .videos{
+        
+        bottom: -1100px;
+    }
+    footer{
+        bottom: -1100px;
+
+    }
+   
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width:1024px){
+    .titulo{
+        margin-left: 15%;
+    }
+    .subtitulo{
+        margin-left: 15%;
+    }
+
+    .linea3{
+        bottom: -650px;
+    }
+    .grid{
+        grid-template-rows: 550px;
+    }
+    .titulovideos{
+        bottom: -650px;
+    }
+    .videos{
+        bottom: -650px;
+
+    }
+    footer{
+        bottom: -650px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) and (max-width:1440px){
+
+    .linea3{
+        top: 250px;
+    }
+    .titulovideos{
+        top: 250px;
+    }
+    .videos{
+        top: 250px;
+    }
+    footer{
+        top: 250px;
+    }
+}
