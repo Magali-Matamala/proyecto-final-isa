@@ -18,10 +18,11 @@ header{
 
 
 .titulo{
-    color: white;
+    color: antiquewhite;
     margin-left: 13%;
     margin-right: 80%;
-    margin-top: -80px;    
+    margin-top: -80px;   
+    font-style: oblique; 
 }
 
 .subtitulo{
